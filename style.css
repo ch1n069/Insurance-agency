@@ -86,12 +86,16 @@ body{
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 15%;
 }
 .card{
-    width:20%;
-    border:1px solid;
+    width:400px;
     margin-bottom: 50px;
     background-color: white;
+
+}
+ .blue{
+    background-color:#23A6F0;
 }
 
 @media screen and (max-width:1000px) {
@@ -113,10 +117,13 @@ body{
 
 
 .card-header{
-    padding-left:5%;
+    padding:0 14%;
+    padding-top:14%;
 }
 .card-body{
+    margin:0 14%;
     text-align:justify;
+    padding-bottom: 20%;
 }
 
 .card .image-card{
