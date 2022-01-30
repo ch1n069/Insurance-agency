@@ -156,4 +156,49 @@ body{
     padding-bottom: 20%;
 }
 
+/* end of styling cards */
 
+
+
+
+ 
+.empty-sect{
+    height: 350px;
+    background-color:#eff0f7;
+}
+
+.section-2{
+    height: 520px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+.wallet{
+    width:280px;
+    height: 280px;
+    text-align: center;
+    margin-top:20%;
+    margin-left:11%;
+    flex-direction: row;
+   
+}
+.wallet-image{
+    padding-top:10%;
+
+}
+.wallet .wallet-body{
+    margin-top: 10%;
+}
+.wallet-body p{
+    padding:5%;
+  
+}
+
+.wallet-image{
+    filter: invert(50%) sepia(97%) saturate(1744%) hue-rotate(182deg) brightness(97%) contrast(86%);
+}
