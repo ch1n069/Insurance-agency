@@ -6,6 +6,7 @@ body{
     margin:0;
     padding:0;
     font-family: 'Montserrat', sans-serif;
+    height:100%;
 
 }
 
@@ -210,7 +211,7 @@ body{
 
 .section-3 {
     
-    height: 520px;
+    height: auto;
    
 }
 
@@ -319,8 +320,34 @@ body{
     width:30%;  
 }
 
-.card-3 .bigger{
+.card-4{
+    border: 2px solid red;
+    width:30%; 
 }
+
+
+.card-4 .big-header{
+    text-align: center;   
+    margin-top: 15%;
+    margin-bottom: 10%; 
+}
+
+
+.card-4 .free-par{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.card-4 .dollar{
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 4%;
+    color:#23A6F0;
+
+}
+     
+
 .card-3 .free{
 text-align: center;   
 margin-top: 15%;
@@ -353,4 +380,23 @@ margin-bottom: 10%;
     border-radius: 4%;
     background-color: #23A6F0;
     color: white;
+}
+
+
+
+/* End of premium styling  */
+
+
+
+
+.last{
+    height: 520px;
+    background-color:#252B42;
+}
+
+
+
+.last .last-h2{
+    color:white;
+    font-size: 30px;
 }
