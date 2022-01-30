@@ -274,10 +274,36 @@ body{
     padding:10%;
 }
 
-.sub-bar .subscribe{
-    height:110px;
-    border:1px solid red;
+
+.sub-bar-1{
+    height:150px;
+    background: rgb(2,0,36);
+    background: linear-gradient(279deg, rgba(2,0,36,1) -20%, rgba(222,31,192,1) 13%, rgba(40,124,200,1) 100%);
 }
+  
 .subscribe h2{
+    margin:2%;
+    padding:2%;
+    color: white;
+    font-family: montserrat;
+    font-weight: bold;
+}
+.email-box{
+    height:40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* stylish bar end  */
+
+
+.pricing{
+    padding-top:13%;
+    text-align: center;
     
+}
+.pricing p{
+    margin-top: 2%;
 }
