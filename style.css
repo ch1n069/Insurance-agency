@@ -318,6 +318,9 @@ body{
     border: 2px solid red;
     width:30%;  
 }
+
+.card-3 .bigger{
+}
 .card-3 .free{
 text-align: center;   
 margin-top: 15%;
