@@ -389,14 +389,35 @@ margin-bottom: 10%;
 
 
 
-.last{
-    height: 520px;
+
+.last-one{
+    height: 820px;
     background-color:#252B42;
+    display: flex;
 }
 
-
-
-.last .last-h2{
-    color:white;
-    font-size: 30px;
+#cont-1{
+    width:40%;
+    color: white;
 }
+#cont-1 .h2-one{
+    font-weight:700;
+}
+
+.world-text{
+    padding-top: 27%;  
+    padding-left: 19%; 
+}
+
+#cont-2{
+    width: 60%;
+    float: right;
+}
+ .world-image{
+     padding-bottom: 60%;
+     padding-left: 40%;
+     padding-top:10%;
+     padding-right:40px;
+     text-align: center;
+ }
+ 
