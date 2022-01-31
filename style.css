@@ -24,18 +24,15 @@ body {
     background-position: center;
 }
 
-.hero-1 {
-    /* background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)),  url("./images/hero.png"); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .logo {
     color: white;
-    padding: 10px 15%;
+    padding: 10px 8%;
     float: left;
     margin-top: 1%;
+}
+
+.hero-1 {
+    background-color: red;
 }
 
 .bar {
@@ -46,7 +43,7 @@ body {
     display: inline-block;
     /* margin-right:40%; */
     margin: 2%;
-    padding-right: 10px;
+    /* padding-right: 10px; */
     font-size: 20px;
 }
 
@@ -54,6 +51,20 @@ body {
     color: white;
     text-decoration: none;
 }
+
+.bar ul {
+    background-color: red;
+}
+
+.member a {
+    font-size: large;
+    /* margin-left: 50%; */
+}
+
+
+/* .logo-15 {
+    background-color: blue;
+} */
 
 
 /* below the nav bar */
@@ -352,26 +363,28 @@ body {
     padding-left: 15%;
 }
 
-.big-body>i {
-    margin-left: 4%;
-    position: relative;
+.big-body {
+    margin-top: 10%;
 }
 
 .card-3 {
     width: 30%;
-    border: 1px solid red;
+    border: 1px solid #23A6F0;
     box-shadow: 0 7px rgba(52, 31, 97, 0.1);
+    border-radius: 8px;
 }
 
 .card-4 {
     width: 30%;
+    /* height: 100vh; */
+    margin-top: -4%;
     box-shadow: 0 7px rgba(52, 31, 97, 0.1);
+    border-radius: 8px;
 }
 
 .card-4 .big-header {
     text-align: center;
     margin-top: 15%;
-    margin-bottom: 10%;
 }
 
 .card-4 .free-par {
@@ -406,7 +419,9 @@ body {
     color: #23A6F0;
 }
 
-.dollar p {}
+.dollar {
+    margin-top: 30%;
+}
 
 .more {
     margin-top: 4%;
@@ -462,14 +477,14 @@ body {
 /* creating the book appointment form  */
 
 .container {
-    position: relative;
+    margin-top: -20%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 720px;
-    /* padding:20px 100px; */
-    padding-bottom: 270px;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    /* padding-bottom: 1%; */
 }
 
 .container:after {
@@ -490,16 +505,20 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: white;
+    padding: 5%;
 }
 
 .left {
     height: 100%;
     background: url(./images/form.png)no-repeat center;
     background-size: cover;
+    width: 45%;
 }
 
 .right {
-    padding: 25px 40px;
+    padding: 25px 10px;
+    margin-left: -50%;
 }
 
 h3 {
@@ -531,10 +550,12 @@ h3:after {
 }
 
 .right .btn {
-    padding: 5%;
+    padding: 3%;
     color: white;
     background-color: #23A6F0;
     border: none;
+    padding-left: 40%;
+    padding-right: 40%;
 }
 
 
