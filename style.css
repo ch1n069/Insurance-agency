@@ -499,3 +499,83 @@ h3:after{
     border: none;
 
 }
+
+
+/* end of the form is here  */
+
+
+.consulting{
+    padding-top: 20%;
+}
+#agency{
+
+    width: 70%;
+    margin-left:5%;
+    text-align: justify;
+   
+}
+#agency .conso{
+    font-size: 30px;
+    margin-bottom: 2%;
+    
+}
+
+#contact .contact-1{
+    background-color: #23A6F0;
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left: 3%;
+    padding-right:3%;
+    color: white;
+    float: right;
+    margin-bottom: 60%;
+    
+   
+ 
+}
+.contact-1{
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+/* end of conso */
+
+
+.wrapper{
+    padding:12%;
+    max-width: 960px;
+    width: 95%;
+    margin:20px auto;
+}
+.wrapper ul {
+    list-style: none;
+}
+
+.columns {
+    display: flex;
+    flex-flow: row-wrap;
+    margin:5px 0;
+    justify-content: center;
+}
+.column{
+    flex:1; 
+    margin:2px;
+    padding:10px;
+}
+
+@media screen and (max-width:980px) {
+    .columns .column{
+        margin-bottom: 5px;
+        flex-basis:40%;
+    }
+    
+}
+@media screen  and(max-width: 680px) {
+    .columns .column{
+        flex-basis: 100%;
+        margin:0 0 5px 0;
+    }
+    
+}
