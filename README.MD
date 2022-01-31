@@ -13,4 +13,4 @@ This is a website about an insurance company and the services that the insurance
 * Enjoy.
 
 ## Live link 
-* This is the live link to the project<a href=""> click </a>
+* This is the live link to the project<a href="https://ch1n069.github.io/Insurance-agency/"> click </a>
