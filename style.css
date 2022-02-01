@@ -648,6 +648,14 @@ h3:after {
     padding: 10px;
 }
 
+.fot-1 {
+    width: auto;
+}
+
+.footer {
+    padding-top: 3%;
+}
+
 @media screen and (max-width:980px) {
     .columns .column {
         margin-bottom: 5px;
